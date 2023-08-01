@@ -8,16 +8,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Giroud, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 .flex-container {
     display: flex;
 }
 .right {
-    width: 75%;
+    width: 70%;
 }
 .left {
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 .image-holder{
@@ -36,4 +36,54 @@ position: relative;
     top: 16rem;
     width: 100%;
     text-align: center;
+    font-family: Giroud, sans-serif;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.paragraph-1 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    max-width: 70%;
+}
+.paragraph-2 {
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+.data-entry-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+    width: 100%;
+   box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.1), 
+    0px 8px 16px rgba(0,0,0,0.1);
+}
+.data-entry-card div {
+    margin-left: 3rem;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+.inputPair {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.inputPair2 {
+    display: flex;
+    flex-direction: column;
+}
+.inputPair3 {
+    display: flex;
+    flex-direction: column;
 }
