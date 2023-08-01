@@ -58,7 +58,7 @@ position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40%;
+    height: 50%;
     width: 100%;
    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
     0px 2px 4px rgba(0,0,0,0.1), 
@@ -77,13 +77,32 @@ position: relative;
 .inputPair {
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
+    margin-bottom: 1rem;
 }
 .inputPair2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 .inputPair3 {
     display: flex;
     flex-direction: column;
+}
+
+button {
+    margin-top: 2rem;
+    width: 20%;
+    margin-left: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+:focus {
+    outline: 3px solid orange;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+    0px 2px 4px rgba(0,0,0,0.1), 
+    0px 4px 8px rgba(0,0,0,0.1), 
+    0px 8px 16px rgba(0,0,0,0.1);
 }
